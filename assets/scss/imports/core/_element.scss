@@ -1,4 +1,5 @@
 @import "./variable";
+@import "./mixin";
 body {
     font-family: $pmr-font;
 }
@@ -10,32 +11,22 @@ body {
 }
 
 .section__heading {
-    color: $pmr-text-cl;
     font-family: $sub-font;
-    font-size: 7rem;
-    line-height: 70px; /* 100% */
+    @include txt(7rem, 400, 70px, $pmr-text-cl);
     text-transform: uppercase;
 }
 .section__title {
-    color: $pmr-text-cl;
-    font-size: 2.4rem;
-    font-weight: 700;
-    line-height: 34px; /* 141.667% */
+    @include txt(2.4rem, 700, 34px, $pmr-text-cl);
     text-transform: uppercase;
 
-    &--small{
-        font-size: 2.2rem;
-        line-height: 32px;
+    &--small {
+        @include txt(2.2rem, 700, 32px, $pmr-text-cl);
         text-transform: uppercase;
     }
 }
 .section__desc {
-    color: $sub-text-cl;
-    font-size: 1.8rem;
-    line-height: 30px; /* 166.667% */
-
-    &--small{
-        font-size: 1.4rem;
-        line-height: 24px;;
+    @include txt(1.8rem, 400, 30px, $sub-text-cl);
+    &--small {
+        @include txt(1.4rem, 400, 24px, $sub-text-cl);
     }
 }
