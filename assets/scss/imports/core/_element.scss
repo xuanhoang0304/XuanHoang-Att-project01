@@ -1,0 +1,41 @@
+@import "./variable";
+body {
+    font-family: $pmr-font;
+}
+
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+.section__heading {
+    color: $pmr-text-cl;
+    font-family: $sub-font;
+    font-size: 7rem;
+    line-height: 70px; /* 100% */
+    text-transform: uppercase;
+}
+.section__title {
+    color: $pmr-text-cl;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 34px; /* 141.667% */
+    text-transform: uppercase;
+
+    &--small{
+        font-size: 2.2rem;
+        line-height: 32px;
+        text-transform: uppercase;
+    }
+}
+.section__desc {
+    color: $sub-text-cl;
+    font-size: 1.8rem;
+    line-height: 30px; /* 166.667% */
+
+    &--small{
+        font-size: 1.4rem;
+        line-height: 24px;;
+    }
+}
