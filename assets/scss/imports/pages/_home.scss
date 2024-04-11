@@ -63,7 +63,7 @@ body {
     // Hero
     .hero {
         position: relative;
-        background: $bgcl;
+        background: $pmr-bgcl;
         height: 100vh;
         padding: 130px 0 145px;
 
@@ -377,6 +377,64 @@ body {
             transform: translateX(-50%);
             background-color: #4cbce2;
             z-index: 1;
+        }
+    }
+    // Client
+    .client {
+        padding: 80px 0;
+        .client__heading {
+            text-align: center;
+        }
+        .client__list {
+            margin-top: 60px;
+            @include flex(unset);
+            .client__item {
+                flex: 1 0 0%;
+                padding: 50px 0;
+                border: 1px solid #dbe1e3;
+                @include flex();
+            }
+        }
+    }
+    // Member
+    .member {
+        padding: 80px 0;
+        text-align: center;
+        .member__list {
+            margin-top: 60px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 30px;
+            .member__item {
+                padding: 40px 60px;
+                border-radius: 20px;
+                border: 1px solid #dbe1e3;
+                background: #fff;
+                .member__avt {
+                    @include image-wrap(170px, 170px);
+                    margin: 0 auto;
+                    border-radius: 50%;
+                    .member__avt-img {
+                        @include imgage(true);
+                        border-radius: inherit;
+                    }
+                }
+                .member__name {
+                    margin-top: 30px;
+                }
+                .member__job {
+                    margin-top: 6px;
+                }
+                .member__desc {
+                    margin-top: 14px;
+                    color: $pmr-text-cl;
+                }
+            }
+        }
+        .member__cta {
+            margin-top: 60px;
+            @include btn(15px, 35px, $pmr-bgcl, 0);
+            @include txt(1.8rem,500,30px,#fff);
         }
     }
 }

@@ -18,7 +18,7 @@
 ) {
     display: inline-block;
     padding: $btn-pd-top-bot $btn-pd-left-right;
-    background-color: $bgcl;
+    background: $bgcl;
     border-radius: $bd-radius;
     cursor: pointer;
 }
