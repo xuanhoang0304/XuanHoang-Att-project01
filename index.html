@@ -1,1063 +1,817 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
-            rel="stylesheet"
-        />
 
-        <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="stylesheet" href="./assets/scss/style.css" />
-        <title>Project 01</title>
-    </head>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
 
-    <body>
-        <div id="home">
-            <!-- Header -->
-            <header class="header header--fixed">
-                <div class="container">
-                    <div class="header__wrap">
-                        <div class="header__left">
-                            <a href="#">
-                                <img src="./assets/img/Logo.svg" alt="logo" />
-                            </a>
-                            <nav class="header__nav hide-mb">
-                                <ul>
-                                    <li class="header__item">
-                                        <a href="#" class="header__item-link"
-                                            >HOME</a
-                                        >
-                                    </li>
-                                    <li class="header__item">
-                                        <a href="#" class="header__item-link"
-                                            >PROJECT</a
-                                        >
-                                    </li>
-                                    <li class="header__item">
-                                        <a href="#" class="header__item-link"
-                                            >ABOUT</a
-                                        >
-                                    </li>
-                                    <li class="header__item">
-                                        <a href="#" class="header__item-link"
-                                            >BLOG</a
-                                        >
-                                    </li>
-                                    <li class="header__item">
-                                        <a href="#" class="header__item-link">
-                                            <p class="header__item-page">
-                                                PAGE
-                                            </p>
-                                        </a>
-                                        <img
-                                            src="./assets/img/arrow-down.svg"
-                                            alt="arrow-down"
-                                        />
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="header__right">
-                            <button class="header__menu hide-pc show-mb">
-                                <img
-                                    src="./assets/img/menu.svg"
-                                    alt="hamburger"
-                                    class="header__menu-icon"
-                                />
-                            </button>
-                            <a href="#" class="header__contact">Contact</a>
-                        </div>
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/scss/style.css" />
+    <title>Project 01</title>
+</head>
+
+<body>
+    <div id="home">
+        <!-- Header -->
+        <header class="header header--fixed">
+            <div class="container">
+                <div class="header__wrap">
+                    <div class="header__left">
+                        <a href="#">
+                            <img src="./assets/img/Logo.svg" alt="logo" />
+                        </a>
+                        <nav class="header__nav hide-mb">
+                            <ul>
+                                <li class="header__item">
+                                    <a href="#" class="header__item-link">HOME</a>
+                                </li>
+                                <li class="header__item">
+                                    <a href="#" class="header__item-link">PROJECT</a>
+                                </li>
+                                <li class="header__item">
+                                    <a href="#" class="header__item-link">ABOUT</a>
+                                </li>
+                                <li class="header__item">
+                                    <a href="#" class="header__item-link">BLOG</a>
+                                </li>
+                                <li class="header__item">
+                                    <a href="#" class="header__item-link">
+                                        <p class="header__item-page">
+                                            PAGE
+                                        </p>
+                                    </a>
+                                    <img src="./assets/img/arrow-down.svg" alt="arrow-down" />
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__right">
+                        <button class="header__menu hide-pc show-mb">
+                            <img src="./assets/img/menu.svg" alt="hamburger" class="header__menu-icon" />
+                        </button>
+                        <a href="#" class="header__contact">Contact</a>
                     </div>
                 </div>
-            </header>
-            <main>
-                <!-- hero -->
-                <section class="hero">
-                    <figure class="hero__img-wrap">
-                        <img
-                            src="./assets/img/hero-img.png"
-                            alt="hero imgae"
-                            class="hero__img"
-                        />
-                    </figure>
+            </div>
+        </header>
+        <main>
+            <!-- hero -->
+            <section class="hero">
+                <figure class="hero__img-wrap">
+                    <img src="./assets/img/hero-img.png" alt="hero imgae" class="hero__img" />
+                </figure>
+                <div class="container">
+                    <div class="hero__wrap">
+                        <h1 class="hero__heading">
+                            BEST INTERIOR DESIGN for your home
+                        </h1>
+                        <h5 class="hero__title section__title--small">
+                            We Are Experienced Architectural Consultants Who
+                            Can Make Your Dreams Come True
+                        </h5>
+                        <a href="#" class="hero__cta">Contact Us</a>
+                    </div>
+                </div>
+            </section>
+            <!-- about -->
+            <section class="about">
+                <!-- about top -->
+                <div class="about__top">
                     <div class="container">
-                        <div class="hero__wrap">
-                            <h1 class="hero__heading">
-                                BEST INTERIOR DESIGN for your home
-                            </h1>
-                            <h5 class="hero__title section__title--small">
-                                We Are Experienced Architectural Consultants Who
-                                Can Make Your Dreams Come True
-                            </h5>
-                            <a href="#" class="hero__cta">Contact Us</a>
-                        </div>
-                    </div>
-                </section>
-                <!-- about -->
-                <section class="about">
-                    <!-- about top -->
-                    <div class="about__top">
-                        <div class="container">
-                            <div class="about__top-header">
-                                <h6 class="about__title">About us</h6>
-                                <h3 class="about__heading section__heading">
-                                    We are Duplex
-                                </h3>
-                                <p class="about__desc section__desc">
-                                    we are interior design and architecture
-                                    since 2001, we have helped tens of thousands
-                                    of our clients to realize their dream homes,
-                                    we have also worked with 500 distributors to
-                                    provide the goods we need.
-                                </p>
-                            </div>
-                            <ul class="about__top-list">
-                                <!-- about item01 -->
-                                <li class="about__item">
-                                    <figure class="about__img-wrap">
-                                        <img
-                                            src="./assets/img/about-img01.svg"
-                                            alt="about-img01"
-                                            class="about__img"
-                                        />
-                                    </figure>
-                                    <div class="about__info">
-                                        <h4 class="section__title">
-                                            Professionals
-                                        </h4>
-                                        <p
-                                            class="about__info-desc section__desc"
-                                        >
-                                            we are interior design and
-                                            architecture since 2001, we have
-                                            helped tens of thousands of our
-                                            clients to realize their dream
-                                            homes,
-                                        </p>
-                                    </div>
-                                </li>
-                                <!-- about item02 -->
-                                <li class="about__item">
-                                    <figure class="about__img-wrap">
-                                        <img
-                                            src="./assets/img/about-img02.svg"
-                                            alt="about-img02"
-                                            class="about__img"
-                                        />
-                                    </figure>
-                                    <div class="about__info">
-                                        <h4 class="section__title">Trusted</h4>
-                                        <p
-                                            class="about__info-desc section__desc"
-                                        >
-                                            we are interior design and
-                                            architecture since 2001, we have
-                                            helped tens of thousands of our
-                                            clients to realize their dream
-                                            homes,
-                                        </p>
-                                    </div>
-                                </li>
-                                <!-- about item03 -->
-                                <li class="about__item">
-                                    <figure class="about__img-wrap">
-                                        <img
-                                            src="./assets/img/about-img03.svg"
-                                            alt="about-img03"
-                                            class="about__img"
-                                        />
-                                    </figure>
-                                    <div class="about__info">
-                                        <h4 class="section__title">
-                                            Expert Designer
-                                        </h4>
-                                        <p
-                                            class="about__info-desc section__desc"
-                                        >
-                                            we are interior design and
-                                            architecture since 2001, we have
-                                            helped tens of thousands of our
-                                            clients to realize their dream
-                                            homes,
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- about bottom -->
-                    <div class="about__bottom">
-                        <div class="container">
-                            <ul class="about__bottom-wrap">
-                                <!-- about bottom item1 -->
-                                <li class="about__bottom-item">
-                                    <p class="about__bottom-item-number">01</p>
-                                    <h3
-                                        class="about__bottom-heading section__heading"
-                                    >
-                                        Creativity
-                                    </h3>
-                                    <p class="about__bottom-desc">
-                                        we are interior design and architecture
-                                        since 2001, we have helped tens of
-                                        thousands of our clients to realize
-                                        their dream homes,
-                                    </p>
-                                    <a href="#" class="about__bottom-link"
-                                        >Read more</a
-                                    >
-                                </li>
-                                <!-- about bottom item2 -->
-                                <li class="about__bottom-item">
-                                    <p class="about__bottom-item-number">02</p>
-                                    <h3
-                                        class="about__bottom-heading section__heading"
-                                    >
-                                        Materials
-                                    </h3>
-                                    <p class="about__bottom-desc">
-                                        we are interior design and architecture
-                                        since 2001, we have helped tens of
-                                        thousands of our clients to realize
-                                        their dream homes,
-                                    </p>
-                                    <a href="#" class="about__bottom-link"
-                                        >Read more</a
-                                    >
-                                </li>
-                                <!-- about bottom item3 -->
-                                <li class="about__bottom-item">
-                                    <p class="about__bottom-item-number">03</p>
-                                    <h3
-                                        class="about__bottom-heading section__heading"
-                                    >
-                                        Modern
-                                    </h3>
-                                    <p class="about__bottom-desc">
-                                        we are interior design and architecture
-                                        since 2001, we have helped tens of
-                                        thousands of our clients to realize
-                                        their dream homes,
-                                    </p>
-                                    <a href="#" class="about__bottom-link"
-                                        >Read more</a
-                                    >
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <!-- why -->
-                <section class="why">
-                    <div class="container">
-                        <div class="why__top">
-                            <h3 class="section__heading">
-                                Why Mason Choose Cottage
+                        <div class="about__top-header">
+                            <h6 class="about__title">About us</h6>
+                            <h3 class="about__heading section__heading">
+                                We are Duplex
                             </h3>
-                            <p class="why__desc section__desc">
-                                Mason is one of India's leading award-winning
-                                Architecture and Urban Design practices with
-                                offices in Mumbai, Bengaluru and New Delhi. The
-                                firm reinterprets regional architectural roots
-                                and consistently employs passive design
-                                solutions for a unique contextual language.
+                            <p class="about__desc section__desc">
+                                we are interior design and architecture
+                                since 2001, we have helped tens of thousands
+                                of our clients to realize their dream homes,
+                                we have also worked with 500 distributors to
+                                provide the goods we need.
                             </p>
                         </div>
-                        <div class="why__bottom">
-                            <div class="why__listImages">
-                                <ul class="why__list">
-                                    <li>
-                                        <figure class="why__img-wrap">
-                                            <img
-                                                src="./assets/img/why-img.png"
-                                                alt="why img"
-                                                class="why__img"
-                                            />
-                                            <button class="why__play">
-                                                <img
-                                                    src="./assets/img/Play.svg"
-                                                    alt="play img"
-                                                    class="why__play-img"
-                                                />
-                                            </button>
-                                        </figure>
-                                    </li>
-                                </ul>
-                            </div>
-                            <ul class="why__control">
-                                <li class="why__control-item">
-                                    <button class="why__control-btn">
-                                        <figure class="why__arrow">
-                                            <img
-                                                src="./assets/img/arrow-right.svg"
-                                                alt="why arrow"
-                                                class="why__arrow-img"
-                                            />
-                                        </figure>
-                                        <p class="section__title">
-                                            Custom Designed
-                                        </p>
-                                    </button>
-                                </li>
-                                <li class="why__control-item">
-                                    <button class="why__control-btn">
-                                        <figure class="why__arrow">
-                                            <img
-                                                src="./assets/img/arrow-right.svg"
-                                                alt="why arrow"
-                                                class="why__arrow-img"
-                                            />
-                                        </figure>
-                                        <p class="section__title">
-                                            Zero hassle Proccess
-                                        </p>
-                                    </button>
-                                </li>
-                                <li class="why__control-item">
-                                    <button class="why__control-btn">
-                                        <figure class="why__arrow">
-                                            <img
-                                                src="./assets/img/arrow-right.svg"
-                                                alt="why arrow"
-                                                class="why__arrow-img"
-                                            />
-                                        </figure>
-                                        <p class="section__title">
-                                            Best-in market value
-                                        </p>
-                                    </button>
-                                </li>
-                                <li class="why__control-item">
-                                    <button class="why__control-btn">
-                                        <figure class="why__arrow">
-                                            <img
-                                                src="./assets/img/arrow-right.svg"
-                                                alt="why arrow"
-                                                class="why__arrow-img"
-                                            />
-                                        </figure>
-                                        <p class="section__title">
-                                            Vatted professionals
-                                        </p>
-                                    </button>
+                        <ul class="about__top-list">
+                            <!-- about item01 -->
+                            <li class="about__item">
+                                <figure class="about__img-wrap">
+                                    <img src="./assets/img/about-img01.svg" alt="about-img01" class="about__img" />
+                                </figure>
+                                <div class="about__info">
+                                    <h4 class="section__title">
+                                        Professionals
+                                    </h4>
+                                    <p class="about__info-desc section__desc">
+                                        we are interior design and
+                                        architecture since 2001, we have
+                                        helped tens of thousands of our
+                                        clients to realize their dream
+                                        homes,
+                                    </p>
+                                </div>
+                            </li>
+                            <!-- about item02 -->
+                            <li class="about__item">
+                                <figure class="about__img-wrap">
+                                    <img src="./assets/img/about-img02.svg" alt="about-img02" class="about__img" />
+                                </figure>
+                                <div class="about__info">
+                                    <h4 class="section__title">Trusted</h4>
+                                    <p class="about__info-desc section__desc">
+                                        we are interior design and
+                                        architecture since 2001, we have
+                                        helped tens of thousands of our
+                                        clients to realize their dream
+                                        homes,
+                                    </p>
+                                </div>
+                            </li>
+                            <!-- about item03 -->
+                            <li class="about__item">
+                                <figure class="about__img-wrap">
+                                    <img src="./assets/img/about-img03.svg" alt="about-img03" class="about__img" />
+                                </figure>
+                                <div class="about__info">
+                                    <h4 class="section__title">
+                                        Expert Designer
+                                    </h4>
+                                    <p class="about__info-desc section__desc">
+                                        we are interior design and
+                                        architecture since 2001, we have
+                                        helped tens of thousands of our
+                                        clients to realize their dream
+                                        homes,
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- about bottom -->
+                <div class="about__bottom">
+                    <div class="container">
+                        <ul class="about__bottom-wrap">
+                            <!-- about bottom item1 -->
+                            <li class="about__bottom-item">
+                                <p class="about__bottom-item-number">01</p>
+                                <h3 class="about__bottom-heading section__heading">
+                                    Creativity
+                                </h3>
+                                <p class="about__bottom-desc">
+                                    we are interior design and architecture
+                                    since 2001, we have helped tens of
+                                    thousands of our clients to realize
+                                    their dream homes,
+                                </p>
+                                <a href="#" class="about__bottom-link">Read more</a>
+                            </li>
+                            <!-- about bottom item2 -->
+                            <li class="about__bottom-item">
+                                <p class="about__bottom-item-number">02</p>
+                                <h3 class="about__bottom-heading section__heading">
+                                    Materials
+                                </h3>
+                                <p class="about__bottom-desc">
+                                    we are interior design and architecture
+                                    since 2001, we have helped tens of
+                                    thousands of our clients to realize
+                                    their dream homes,
+                                </p>
+                                <a href="#" class="about__bottom-link">Read more</a>
+                            </li>
+                            <!-- about bottom item3 -->
+                            <li class="about__bottom-item">
+                                <p class="about__bottom-item-number">03</p>
+                                <h3 class="about__bottom-heading section__heading">
+                                    Modern
+                                </h3>
+                                <p class="about__bottom-desc">
+                                    we are interior design and architecture
+                                    since 2001, we have helped tens of
+                                    thousands of our clients to realize
+                                    their dream homes,
+                                </p>
+                                <a href="#" class="about__bottom-link">Read more</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- why -->
+            <section class="why">
+                <div class="container">
+                    <div class="why__top">
+                        <h3 class="section__heading">
+                            Why Mason Choose Cottage
+                        </h3>
+                        <p class="why__desc section__desc">
+                            Mason is one of India's leading award-winning
+                            Architecture and Urban Design practices with
+                            offices in Mumbai, Bengaluru and New Delhi. The
+                            firm reinterprets regional architectural roots
+                            and consistently employs passive design
+                            solutions for a unique contextual language.
+                        </p>
+                    </div>
+                    <div class="why__bottom">
+                        <div class="why__listImages">
+                            <ul class="why__list">
+                                <li>
+                                    <figure class="why__img-wrap">
+                                        <img src="./assets/img/why-img.png" alt="why img" class="why__img" />
+                                        <button class="why__play">
+                                            <img src="./assets/img/Play.svg" alt="play img" class="why__play-img" />
+                                        </button>
+                                    </figure>
                                 </li>
                             </ul>
                         </div>
-                    </div>
-                </section>
-                <!-- product -->
-                <section class="product">
-                    <div class="container">
-                        <h3 class="product__heading section__heading">
-                            Our Innovative products
-                        </h3>
-                        <ul class="product__list">
-                            <!-- Arrow -->
-                            <button class="product__arrow-left">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="44"
-                                    height="44"
-                                    viewBox="0 0 44 44"
-                                    fill="none"
-                                >
-                                    <rect
-                                        x="43.5"
-                                        y="0.5"
-                                        width="43"
-                                        height="43"
-                                        rx="21.5"
-                                        transform="rotate(90 43.5 0.5)"
-                                        stroke="#181D1F"
-                                    />
-                                    <path
-                                        d="M22.0619 14C22.0619 16.1218 21.2125 18.1566 19.7006 19.6569C18.1887 21.1572 16.1381 22 14 22M14 22C15.0587 22 16.107 22.207 17.0851 22.6089C18.0632 23.011 18.952 23.6003 19.7006 24.3431C20.4492 25.0861 21.043 25.968 21.4482 26.9386C21.8533 27.9092 22.0619 28.9494 22.0619 30M14 22H30"
-                                        stroke="#181D1F"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                    />
-                                </svg>
-                            </button>
-                            <button class="product__arrow-right">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="44"
-                                    height="44"
-                                    viewBox="0 0 44 44"
-                                    fill="none"
-                                >
-                                    <rect
-                                        x="43.5"
-                                        y="0.5"
-                                        width="43"
-                                        height="43"
-                                        rx="21.5"
-                                        transform="rotate(90 43.5 0.5)"
-                                        stroke="#181D1F"
-                                    />
-                                    <path
-                                        d="M22.0619 14C22.0619 16.1218 21.2125 18.1566 19.7006 19.6569C18.1887 21.1572 16.1381 22 14 22M14 22C15.0587 22 16.107 22.207 17.0851 22.6089C18.0632 23.011 18.952 23.6003 19.7006 24.3431C20.4492 25.0861 21.043 25.968 21.4482 26.9386C21.8533 27.9092 22.0619 28.9494 22.0619 30M14 22H30"
-                                        stroke="#181D1F"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                    />
-                                </svg>
-                            </button>
-                            <!-- Product item01 -->
-                            <li class="product__item">
-                                <figure class="product__img-wrap">
-                                    <img
-                                        src="./assets/img/product-item01.png"
-                                        alt="product-img01"
-                                        class="product__img"
-                                    />
-                                </figure>
-                                <div class="product__item-content">
-                                    <h4 class="product__title section__title">
-                                        Home office comfy chair.
-                                    </h4>
-                                    <div class="product__info">
-                                        <p
-                                            class="product__price section__title--small"
-                                        >
-                                            $329.00
-                                        </p>
-                                        <button class="product__cart-btn">
-                                            <svg
-                                                width="36"
-                                                height="36"
-                                                viewBox="0 0 36 36"
-                                                fill="none"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                            >
-                                                <circle
-                                                    cx="18"
-                                                    cy="18"
-                                                    r="17.5"
-                                                    stroke="#DBE1E3"
-                                                />
-                                                <path
-                                                    fill-rule="evenodd"
-                                                    clip-rule="evenodd"
-                                                    d="M19.7676 17.361H22.0741C22.4238 17.361 22.6986 17.0719 22.6986 16.7232C22.6986 16.366 22.4238 16.0854 22.0741 16.0854H19.7676C19.4179 16.0854 19.1431 16.366 19.1431 16.7232C19.1431 17.0719 19.4179 17.361 19.7676 17.361ZM24.8136 12.9397C25.3216 12.9397 25.6547 13.1182 25.9877 13.5094C26.3208 13.9006 26.3791 14.4619 26.3042 14.9713L25.5131 20.5501C25.3632 21.6225 24.4639 22.4125 23.4064 22.4125H14.3218C13.2144 22.4125 12.2984 21.546 12.2068 20.4234L11.4407 11.1529L10.1834 10.9318C9.85031 10.8723 9.61716 10.5406 9.67545 10.2004C9.73374 9.85262 10.0585 9.62215 10.3999 9.67403L12.3858 9.97933C12.6689 10.0312 12.8771 10.2685 12.9021 10.5576L13.0603 12.4626C13.0853 12.7356 13.3018 12.9397 13.5682 12.9397H24.8136ZM14.1884 23.7566C13.489 23.7566 12.9228 24.3349 12.9228 25.0493C12.9228 25.7551 13.489 26.3334 14.1884 26.3334C14.8796 26.3334 15.4458 25.7551 15.4458 25.0493C15.4458 24.3349 14.8796 23.7566 14.1884 23.7566ZM23.5561 23.7566C22.8567 23.7566 22.2905 24.3349 22.2905 25.0493C22.2905 25.7551 22.8567 26.3334 23.5561 26.3334C24.2473 26.3334 24.8135 25.7551 24.8135 25.0493C24.8135 24.3349 24.2473 23.7566 23.5561 23.7566Z"
-                                                    fill="#181D1F"
-                                                />
-                                            </svg>
-                                        </button>
-                                    </div>
-                                </div>
+                        <ul class="why__control">
+                            <li class="why__control-item">
+                                <button class="why__control-btn">
+                                    <figure class="why__arrow">
+                                        <img src="./assets/img/arrow-right.svg" alt="why arrow"
+                                            class="why__arrow-img" />
+                                    </figure>
+                                    <p class="section__title">
+                                        Custom Designed
+                                    </p>
+                                </button>
                             </li>
-                            <!-- Product item02 -->
-                            <li class="product__item">
-                                <figure class="product__img-wrap">
-                                    <img
-                                        src="./assets/img/product-item02.png"
-                                        alt="product-img02"
-                                        class="product__img"
-                                    />
-                                </figure>
-                                <div class="product__item-content">
-                                    <h4 class="product__title section__title">
-                                        office chair table.
-                                    </h4>
-                                    <div class="product__info">
-                                        <p
-                                            class="product__price section__title--small"
-                                        >
-                                            $329.00
-                                        </p>
-                                        <button class="product__cart-btn">
-                                            <svg
-                                                width="36"
-                                                height="36"
-                                                viewBox="0 0 36 36"
-                                                fill="none"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                            >
-                                                <circle
-                                                    cx="18"
-                                                    cy="18"
-                                                    r="17.5"
-                                                    stroke="#DBE1E3"
-                                                />
-                                                <path
-                                                    fill-rule="evenodd"
-                                                    clip-rule="evenodd"
-                                                    d="M19.7676 17.361H22.0741C22.4238 17.361 22.6986 17.0719 22.6986 16.7232C22.6986 16.366 22.4238 16.0854 22.0741 16.0854H19.7676C19.4179 16.0854 19.1431 16.366 19.1431 16.7232C19.1431 17.0719 19.4179 17.361 19.7676 17.361ZM24.8136 12.9397C25.3216 12.9397 25.6547 13.1182 25.9877 13.5094C26.3208 13.9006 26.3791 14.4619 26.3042 14.9713L25.5131 20.5501C25.3632 21.6225 24.4639 22.4125 23.4064 22.4125H14.3218C13.2144 22.4125 12.2984 21.546 12.2068 20.4234L11.4407 11.1529L10.1834 10.9318C9.85031 10.8723 9.61716 10.5406 9.67545 10.2004C9.73374 9.85262 10.0585 9.62215 10.3999 9.67403L12.3858 9.97933C12.6689 10.0312 12.8771 10.2685 12.9021 10.5576L13.0603 12.4626C13.0853 12.7356 13.3018 12.9397 13.5682 12.9397H24.8136ZM14.1884 23.7566C13.489 23.7566 12.9228 24.3349 12.9228 25.0493C12.9228 25.7551 13.489 26.3334 14.1884 26.3334C14.8796 26.3334 15.4458 25.7551 15.4458 25.0493C15.4458 24.3349 14.8796 23.7566 14.1884 23.7566ZM23.5561 23.7566C22.8567 23.7566 22.2905 24.3349 22.2905 25.0493C22.2905 25.7551 22.8567 26.3334 23.5561 26.3334C24.2473 26.3334 24.8135 25.7551 24.8135 25.0493C24.8135 24.3349 24.2473 23.7566 23.5561 23.7566Z"
-                                                    fill="#181D1F"
-                                                />
-                                            </svg>
-                                        </button>
-                                    </div>
-                                </div>
+                            <li class="why__control-item">
+                                <button class="why__control-btn">
+                                    <figure class="why__arrow">
+                                        <img src="./assets/img/arrow-right.svg" alt="why arrow"
+                                            class="why__arrow-img" />
+                                    </figure>
+                                    <p class="section__title">
+                                        Zero hassle Proccess
+                                    </p>
+                                </button>
                             </li>
-                            <!-- Product item03 -->
-                            <li class="product__item">
-                                <figure class="product__img-wrap">
-                                    <img
-                                        src="./assets/img/product-item03.png"
-                                        alt="product-img03"
-                                        class="product__img"
-                                    />
-                                </figure>
-                                <div class="product__item-content">
-                                    <h4 class="product__title section__title">
-                                        Office Comfy Sofa
-                                    </h4>
-                                    <div class="product__info">
-                                        <p
-                                            class="product__price section__title--small"
-                                        >
-                                            $329.00
-                                        </p>
-                                        <button class="product__cart-btn">
-                                            <svg
-                                                width="36"
-                                                height="36"
-                                                viewBox="0 0 36 36"
-                                                fill="none"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                            >
-                                                <circle
-                                                    cx="18"
-                                                    cy="18"
-                                                    r="17.5"
-                                                    stroke="#DBE1E3"
-                                                />
-                                                <path
-                                                    fill-rule="evenodd"
-                                                    clip-rule="evenodd"
-                                                    d="M19.7676 17.361H22.0741C22.4238 17.361 22.6986 17.0719 22.6986 16.7232C22.6986 16.366 22.4238 16.0854 22.0741 16.0854H19.7676C19.4179 16.0854 19.1431 16.366 19.1431 16.7232C19.1431 17.0719 19.4179 17.361 19.7676 17.361ZM24.8136 12.9397C25.3216 12.9397 25.6547 13.1182 25.9877 13.5094C26.3208 13.9006 26.3791 14.4619 26.3042 14.9713L25.5131 20.5501C25.3632 21.6225 24.4639 22.4125 23.4064 22.4125H14.3218C13.2144 22.4125 12.2984 21.546 12.2068 20.4234L11.4407 11.1529L10.1834 10.9318C9.85031 10.8723 9.61716 10.5406 9.67545 10.2004C9.73374 9.85262 10.0585 9.62215 10.3999 9.67403L12.3858 9.97933C12.6689 10.0312 12.8771 10.2685 12.9021 10.5576L13.0603 12.4626C13.0853 12.7356 13.3018 12.9397 13.5682 12.9397H24.8136ZM14.1884 23.7566C13.489 23.7566 12.9228 24.3349 12.9228 25.0493C12.9228 25.7551 13.489 26.3334 14.1884 26.3334C14.8796 26.3334 15.4458 25.7551 15.4458 25.0493C15.4458 24.3349 14.8796 23.7566 14.1884 23.7566ZM23.5561 23.7566C22.8567 23.7566 22.2905 24.3349 22.2905 25.0493C22.2905 25.7551 22.8567 26.3334 23.5561 26.3334C24.2473 26.3334 24.8135 25.7551 24.8135 25.0493C24.8135 24.3349 24.2473 23.7566 23.5561 23.7566Z"
-                                                    fill="#181D1F"
-                                                />
-                                            </svg>
-                                        </button>
-                                    </div>
-                                </div>
+                            <li class="why__control-item">
+                                <button class="why__control-btn">
+                                    <figure class="why__arrow">
+                                        <img src="./assets/img/arrow-right.svg" alt="why arrow"
+                                            class="why__arrow-img" />
+                                    </figure>
+                                    <p class="section__title">
+                                        Best-in market value
+                                    </p>
+                                </button>
+                            </li>
+                            <li class="why__control-item">
+                                <button class="why__control-btn">
+                                    <figure class="why__arrow">
+                                        <img src="./assets/img/arrow-right.svg" alt="why arrow"
+                                            class="why__arrow-img" />
+                                    </figure>
+                                    <p class="section__title">
+                                        Vatted professionals
+                                    </p>
+                                </button>
                             </li>
                         </ul>
                     </div>
-                </section>
-                <!-- project -->
-                <section class="project">
-                    <h3 class="project__heading section__heading">
-                        The Last Project we have worked on
+                </div>
+            </section>
+            <!-- product -->
+            <section class="product">
+                <div class="container">
+                    <h3 class="product__heading section__heading">
+                        Our Innovative products
                     </h3>
-                    <ul class="project__list">
-                        <!-- project item01 -->
-                        <li class="project__item">
-                            <figure class="project__img-wrap">
-                                <img
-                                    src="./assets/img/project-img01.png"
-                                    alt="project-img01"
-                                    class="project__img"
-                                />
+                    <ul class="product__list">
+                        <!-- Arrow -->
+                        <button class="product__arrow-left">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44"
+                                fill="none">
+                                <rect x="43.5" y="0.5" width="43" height="43" rx="21.5" transform="rotate(90 43.5 0.5)"
+                                    stroke="#181D1F" />
+                                <path
+                                    d="M22.0619 14C22.0619 16.1218 21.2125 18.1566 19.7006 19.6569C18.1887 21.1572 16.1381 22 14 22M14 22C15.0587 22 16.107 22.207 17.0851 22.6089C18.0632 23.011 18.952 23.6003 19.7006 24.3431C20.4492 25.0861 21.043 25.968 21.4482 26.9386C21.8533 27.9092 22.0619 28.9494 22.0619 30M14 22H30"
+                                    stroke="#181D1F" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <button class="product__arrow-right">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44"
+                                fill="none">
+                                <rect x="43.5" y="0.5" width="43" height="43" rx="21.5" transform="rotate(90 43.5 0.5)"
+                                    stroke="#181D1F" />
+                                <path
+                                    d="M22.0619 14C22.0619 16.1218 21.2125 18.1566 19.7006 19.6569C18.1887 21.1572 16.1381 22 14 22M14 22C15.0587 22 16.107 22.207 17.0851 22.6089C18.0632 23.011 18.952 23.6003 19.7006 24.3431C20.4492 25.0861 21.043 25.968 21.4482 26.9386C21.8533 27.9092 22.0619 28.9494 22.0619 30M14 22H30"
+                                    stroke="#181D1F" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <!-- Product item01 -->
+                        <li class="product__item">
+                            <figure class="product__img-wrap">
+                                <img src="./assets/img/product-item01.png" alt="product-img01" class="product__img" />
                             </figure>
-                            <h5 class="project__title section__title--small">
-                                The khan palace
+                            <div class="product__item-content">
+                                <h4 class="product__title section__title">
+                                    Home office comfy chair.
+                                </h4>
+                                <div class="product__info">
+                                    <p class="product__price section__title--small">
+                                        $329.00
+                                    </p>
+                                    <button class="product__cart-btn">
+                                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="18" cy="18" r="17.5" stroke="#DBE1E3" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M19.7676 17.361H22.0741C22.4238 17.361 22.6986 17.0719 22.6986 16.7232C22.6986 16.366 22.4238 16.0854 22.0741 16.0854H19.7676C19.4179 16.0854 19.1431 16.366 19.1431 16.7232C19.1431 17.0719 19.4179 17.361 19.7676 17.361ZM24.8136 12.9397C25.3216 12.9397 25.6547 13.1182 25.9877 13.5094C26.3208 13.9006 26.3791 14.4619 26.3042 14.9713L25.5131 20.5501C25.3632 21.6225 24.4639 22.4125 23.4064 22.4125H14.3218C13.2144 22.4125 12.2984 21.546 12.2068 20.4234L11.4407 11.1529L10.1834 10.9318C9.85031 10.8723 9.61716 10.5406 9.67545 10.2004C9.73374 9.85262 10.0585 9.62215 10.3999 9.67403L12.3858 9.97933C12.6689 10.0312 12.8771 10.2685 12.9021 10.5576L13.0603 12.4626C13.0853 12.7356 13.3018 12.9397 13.5682 12.9397H24.8136ZM14.1884 23.7566C13.489 23.7566 12.9228 24.3349 12.9228 25.0493C12.9228 25.7551 13.489 26.3334 14.1884 26.3334C14.8796 26.3334 15.4458 25.7551 15.4458 25.0493C15.4458 24.3349 14.8796 23.7566 14.1884 23.7566ZM23.5561 23.7566C22.8567 23.7566 22.2905 24.3349 22.2905 25.0493C22.2905 25.7551 22.8567 26.3334 23.5561 26.3334C24.2473 26.3334 24.8135 25.7551 24.8135 25.0493C24.8135 24.3349 24.2473 23.7566 23.5561 23.7566Z"
+                                                fill="#181D1F" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Product item02 -->
+                        <li class="product__item">
+                            <figure class="product__img-wrap">
+                                <img src="./assets/img/product-item02.png" alt="product-img02" class="product__img" />
+                            </figure>
+                            <div class="product__item-content">
+                                <h4 class="product__title section__title">
+                                    office chair table.
+                                </h4>
+                                <div class="product__info">
+                                    <p class="product__price section__title--small">
+                                        $329.00
+                                    </p>
+                                    <button class="product__cart-btn">
+                                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="18" cy="18" r="17.5" stroke="#DBE1E3" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M19.7676 17.361H22.0741C22.4238 17.361 22.6986 17.0719 22.6986 16.7232C22.6986 16.366 22.4238 16.0854 22.0741 16.0854H19.7676C19.4179 16.0854 19.1431 16.366 19.1431 16.7232C19.1431 17.0719 19.4179 17.361 19.7676 17.361ZM24.8136 12.9397C25.3216 12.9397 25.6547 13.1182 25.9877 13.5094C26.3208 13.9006 26.3791 14.4619 26.3042 14.9713L25.5131 20.5501C25.3632 21.6225 24.4639 22.4125 23.4064 22.4125H14.3218C13.2144 22.4125 12.2984 21.546 12.2068 20.4234L11.4407 11.1529L10.1834 10.9318C9.85031 10.8723 9.61716 10.5406 9.67545 10.2004C9.73374 9.85262 10.0585 9.62215 10.3999 9.67403L12.3858 9.97933C12.6689 10.0312 12.8771 10.2685 12.9021 10.5576L13.0603 12.4626C13.0853 12.7356 13.3018 12.9397 13.5682 12.9397H24.8136ZM14.1884 23.7566C13.489 23.7566 12.9228 24.3349 12.9228 25.0493C12.9228 25.7551 13.489 26.3334 14.1884 26.3334C14.8796 26.3334 15.4458 25.7551 15.4458 25.0493C15.4458 24.3349 14.8796 23.7566 14.1884 23.7566ZM23.5561 23.7566C22.8567 23.7566 22.2905 24.3349 22.2905 25.0493C22.2905 25.7551 22.8567 26.3334 23.5561 26.3334C24.2473 26.3334 24.8135 25.7551 24.8135 25.0493C24.8135 24.3349 24.2473 23.7566 23.5561 23.7566Z"
+                                                fill="#181D1F" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Product item03 -->
+                        <li class="product__item">
+                            <figure class="product__img-wrap">
+                                <img src="./assets/img/product-item03.png" alt="product-img03" class="product__img" />
+                            </figure>
+                            <div class="product__item-content">
+                                <h4 class="product__title section__title">
+                                    Office Comfy Sofa
+                                </h4>
+                                <div class="product__info">
+                                    <p class="product__price section__title--small">
+                                        $329.00
+                                    </p>
+                                    <button class="product__cart-btn">
+                                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="18" cy="18" r="17.5" stroke="#DBE1E3" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M19.7676 17.361H22.0741C22.4238 17.361 22.6986 17.0719 22.6986 16.7232C22.6986 16.366 22.4238 16.0854 22.0741 16.0854H19.7676C19.4179 16.0854 19.1431 16.366 19.1431 16.7232C19.1431 17.0719 19.4179 17.361 19.7676 17.361ZM24.8136 12.9397C25.3216 12.9397 25.6547 13.1182 25.9877 13.5094C26.3208 13.9006 26.3791 14.4619 26.3042 14.9713L25.5131 20.5501C25.3632 21.6225 24.4639 22.4125 23.4064 22.4125H14.3218C13.2144 22.4125 12.2984 21.546 12.2068 20.4234L11.4407 11.1529L10.1834 10.9318C9.85031 10.8723 9.61716 10.5406 9.67545 10.2004C9.73374 9.85262 10.0585 9.62215 10.3999 9.67403L12.3858 9.97933C12.6689 10.0312 12.8771 10.2685 12.9021 10.5576L13.0603 12.4626C13.0853 12.7356 13.3018 12.9397 13.5682 12.9397H24.8136ZM14.1884 23.7566C13.489 23.7566 12.9228 24.3349 12.9228 25.0493C12.9228 25.7551 13.489 26.3334 14.1884 26.3334C14.8796 26.3334 15.4458 25.7551 15.4458 25.0493C15.4458 24.3349 14.8796 23.7566 14.1884 23.7566ZM23.5561 23.7566C22.8567 23.7566 22.2905 24.3349 22.2905 25.0493C22.2905 25.7551 22.8567 26.3334 23.5561 26.3334C24.2473 26.3334 24.8135 25.7551 24.8135 25.0493C24.8135 24.3349 24.2473 23.7566 23.5561 23.7566Z"
+                                                fill="#181D1F" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- project -->
+            <section class="project">
+                <h3 class="project__heading section__heading">
+                    The Last Project we have worked on
+                </h3>
+                <ul class="project__list">
+                    <!-- project item01 -->
+                    <li class="project__item">
+                        <figure class="project__img-wrap">
+                            <img src="./assets/img/project-img01.png" alt="project-img01" class="project__img" />
+                        </figure>
+                        <h5 class="project__title section__title--small">
+                            The khan palace
+                        </h5>
+                        <p class="project__desc section__desc">
+                            Uposhohor, Sylhet, Bangadesh
+                        </p>
+                    </li>
+                    <!-- project item02 -->
+                    <li class="project__item">
+                        <figure class="project__img-wrap">
+                            <img src="./assets/img/project-img02.png" alt="project-img02" class="project__img" />
+                        </figure>
+                        <h5 class="project__title section__title--small">
+                            The khan palace
+                        </h5>
+                        <p class="project__desc section__desc">
+                            Uposhohor, Sylhet, Bangadesh
+                        </p>
+                    </li>
+                    <!-- project item03 -->
+                    <li class="project__item">
+                        <figure class="project__img-wrap">
+                            <img src="./assets/img/project-img03.png" alt="project-img03" class="project__img" />
+                        </figure>
+                        <h5 class="project__title section__title--small">
+                            hotel fortune garden
+                        </h5>
+                        <p class="project__desc section__desc">
+                            Uposhohor, Sylhet, Bangadesh
+                        </p>
+                    </li>
+                    <!-- project item04 -->
+                    <li class="project__item">
+                        <figure class="project__img-wrap">
+                            <img src="./assets/img/project-img04.png" alt="project-img04" class="project__img" />
+                        </figure>
+                        <h5 class="project__title section__title--small">
+                            Hotel Star Pacific
+                        </h5>
+                        <p class="project__desc section__desc">
+                            Uposhohor, Sylhet, Bangadesh
+                        </p>
+                    </li>
+                </ul>
+                <div class="project__line"></div>
+            </section>
+            <!-- client -->
+            <section class="client">
+                <h3 class="client__heading section__heading">
+                    Our Clients
+                </h3>
+                <ul class="client__list">
+                    <!-- client item01 -->
+                    <li class="client__item">
+                        <figure class="client__img-wrap">
+                            <img src="./assets/img/client-logo01.svg" alt="client-logo01" class="client__img" />
+                        </figure>
+                    </li>
+                    <!-- client item02 -->
+                    <li class="client__item">
+                        <figure class="client__img-wrap">
+                            <img src="./assets/img/client-logo02.svg" alt="client-logo02" class="client__img" />
+                        </figure>
+                    </li>
+                    <!-- client item03 -->
+                    <li class="client__item">
+                        <figure class="client__img-wrap">
+                            <img src="./assets/img/client-logo03.svg" alt="client-logo03" class="client__img" />
+                        </figure>
+                    </li>
+                    <!-- client item04 -->
+                    <li class="client__item">
+                        <figure class="client__img-wrap">
+                            <img src="./assets/img/client-logo04.svg" alt="client-logo04" class="client__img" />
+                        </figure>
+                    </li>
+                    <!-- client item05 -->
+                    <li class="client__item">
+                        <figure class="client__img-wrap">
+                            <img src="./assets/img/client-logo05.svg" alt="client-logo05" class="client__img" />
+                        </figure>
+                    </li>
+                    <!-- client item06 -->
+                    <li class="client__item">
+                        <figure class="client__img-wrap">
+                            <img src="./assets/img/client-logo06.svg" alt="client-logo06" class="client__img" />
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+            <!-- member -->
+            <section class="member">
+                <div class="container">
+                    <h3 class="section__heading">Our team Member</h3>
+                    <ul class="member__list">
+                        <!-- Member item01 -->
+                        <li class="member__item">
+                            <figure class="member__avt">
+                                <img src="./assets/img/member-avt01.png" alt="member-avt01" class="member__avt-img" />
+                            </figure>
+                            <h5 class="member__name section__title--small">
+                                sarah taylor
                             </h5>
-                            <p class="project__desc section__desc">
-                                Uposhohor, Sylhet, Bangadesh
+                            <p class="member__job section__desc">
+                                Founder of Mason
+                            </p>
+                            <p class="member__desc section__desc">
+                                We promise to build project for our clint
                             </p>
                         </li>
-                        <!-- project item02 -->
-                        <li class="project__item">
-                            <figure class="project__img-wrap">
-                                <img
-                                    src="./assets/img/project-img02.png"
-                                    alt="project-img02"
-                                    class="project__img"
-                                />
+                        <!-- Member item02 -->
+                        <li class="member__item">
+                            <figure class="member__avt">
+                                <img src="./assets/img/member-avt02.png" alt="member-avt02" class="member__avt-img" />
                             </figure>
-                            <h5 class="project__title section__title--small">
-                                The khan palace
+                            <h5 class="member__name section__title--small">
+                                Michel CLark
                             </h5>
-                            <p class="project__desc section__desc">
-                                Uposhohor, Sylhet, Bangadesh
+                            <p class="member__job section__desc">
+                                Client Manager
+                            </p>
+                            <p class="member__desc section__desc">
+                                We promise to build project for our clint
                             </p>
                         </li>
-                        <!-- project item03 -->
-                        <li class="project__item">
-                            <figure class="project__img-wrap">
-                                <img
-                                    src="./assets/img/project-img03.png"
-                                    alt="project-img03"
-                                    class="project__img"
-                                />
+                        <!-- Member item03 -->
+                        <li class="member__item">
+                            <figure class="member__avt">
+                                <img src="./assets/img/member-avt03.png" alt="member-avt03" class="member__avt-img" />
                             </figure>
-                            <h5 class="project__title section__title--small">
-                                hotel fortune garden
+                            <h5 class="member__name section__title--small">
+                                Michel CLark
                             </h5>
-                            <p class="project__desc section__desc">
-                                Uposhohor, Sylhet, Bangadesh
+                            <p class="member__job section__desc">
+                                Junior Architechor
                             </p>
-                        </li>
-                        <!-- project item04 -->
-                        <li class="project__item">
-                            <figure class="project__img-wrap">
-                                <img
-                                    src="./assets/img/project-img04.png"
-                                    alt="project-img04"
-                                    class="project__img"
-                                />
-                            </figure>
-                            <h5 class="project__title section__title--small">
-                                Hotel Star Pacific
-                            </h5>
-                            <p class="project__desc section__desc">
-                                Uposhohor, Sylhet, Bangadesh
+                            <p class="member__desc section__desc">
+                                We promise to build project for our clint
                             </p>
                         </li>
                     </ul>
-                    <div class="project__line"></div>
-                </section>
-                <!-- client -->
-                <section class="client">
-                    <h3 class="client__heading section__heading">
-                        Our Clients
+                    <a href="#" class="member__cta">View All Member</a>
+                </div>
+            </section>
+            <!-- review -->
+            <section class="review">
+                <div class="container">
+                    <h3 class="review__heading section__heading">
+                        What our Client Say
                     </h3>
-                    <ul class="client__list">
-                        <!-- client item01 -->
-                        <li class="client__item">
-                            <figure class="client__img-wrap">
-                                <img
-                                    src="./assets/img/client-logo01.svg"
-                                    alt="client-logo01"
-                                    class="client__img"
-                                />
-                            </figure>
+                    <ul class="review__list">
+                        <!-- Review item01 -->
+                        <li class="review__item">
+                            <div class="review__stars">
+                                <button class="review__star-wrap">
+                                    <img src="./assets/img/star.svg" alt="star" class="review__star-icon" />
+                                </button>
+                                <button class="review__star-wrap">
+                                    <img src="./assets/img/star.svg" alt="star" class="review__star-icon" />
+                                </button>
+                                <button class="review__star-wrap">
+                                    <img src="./assets/img/star.svg" alt="star" class="review__star-icon" />
+                                </button>
+                                <button class="review__star-wrap">
+                                    <img src="./assets/img/star.svg" alt="star" class="review__star-icon" />
+                                </button>
+                                <button class="review__star-wrap">
+                                    <img src="./assets/img/star.svg" alt="star" class="review__star-icon" />
+                                </button>
+                            </div>
+                            <p class="review__desc section__desc">
+                                “Mason Architecture studio made our dream
+                                agency building a reality! They offered
+                                innovative insights for the designs and
+                                deliverd a final product that was so
+                                stunning.”
+                            </p>
+                            <div class="review__user">
+                                <figure class="review__avt">
+                                    <img src="./assets/img/review-img01.png" alt="review avt" class="review__avt-img" />
+                                </figure>
+                                <div class="review__info">
+                                    <h5 class="review__name section__desc">
+                                        Tim Southee
+                                    </h5>
+                                    <p class="section__desc--small">
+                                        UI/UX Designer
+                                    </p>
+                                </div>
+                            </div>
                         </li>
-                        <!-- client item02 -->
-                        <li class="client__item">
-                            <figure class="client__img-wrap">
-                                <img
-                                    src="./assets/img/client-logo02.svg"
-                                    alt="client-logo02"
-                                    class="client__img"
-                                />
-                            </figure>
+                        <!-- Review item02 -->
+                        <li class="review__item">
+                            <div class="review__stars">
+                                <button class="review__star-wrap">
+                                    <img src="./assets/img/star.svg" alt="star" class="review__star-icon" />
+                                </button>
+                                <button class="review__star-wrap">
+                                    <img src="./assets/img/star.svg" alt="star" class="review__star-icon" />
+                                </button>
+                                <button class="review__star-wrap">
+                                    <img src="./assets/img/star.svg" alt="star" class="review__star-icon" />
+                                </button>
+                                <button class="review__star-wrap">
+                                    <img src="./assets/img/star.svg" alt="star" class="review__star-icon" />
+                                </button>
+                                <button class="review__star-wrap">
+                                    <img src="./assets/img/star.svg" alt="star" class="review__star-icon" />
+                                </button>
+                            </div>
+                            <p class="review__desc section__desc">
+                                “Mason Architecture studio made our dream
+                                agency building a reality! They offered
+                                innovative insights for the designs and
+                                deliverd a final product that was so
+                                stunning.”
+                            </p>
+                            <div class="review__user">
+                                <figure class="review__avt">
+                                    <img src="./assets/img/review-img02.png" alt="review avt" class="review__avt-img" />
+                                </figure>
+                                <div class="review__info">
+                                    <h5 class="review__name section__desc">
+                                        Stuart Broad
+                                    </h5>
+                                    <p class="section__desc--small">
+                                        UI/UX Designer
+                                    </p>
+                                </div>
+                            </div>
                         </li>
-                        <!-- client item03 -->
-                        <li class="client__item">
-                            <figure class="client__img-wrap">
-                                <img
-                                    src="./assets/img/client-logo03.svg"
-                                    alt="client-logo03"
-                                    class="client__img"
-                                />
-                            </figure>
+                        <!-- Review item03 -->
+                        <li class="review__item">
+                            <div class="review__stars">
+                                <button class="review__star-wrap">
+                                    <img src="./assets/img/star.svg" alt="star" class="review__star-icon" />
+                                </button>
+                                <button class="review__star-wrap">
+                                    <img src="./assets/img/star.svg" alt="star" class="review__star-icon" />
+                                </button>
+                                <button class="review__star-wrap">
+                                    <img src="./assets/img/star.svg" alt="star" class="review__star-icon" />
+                                </button>
+                                <button class="review__star-wrap">
+                                    <img src="./assets/img/star.svg" alt="star" class="review__star-icon" />
+                                </button>
+                                <button class="review__star-wrap">
+                                    <img src="./assets/img/star.svg" alt="star" class="review__star-icon" />
+                                </button>
+                            </div>
+                            <p class="review__desc section__desc">
+                                “Mason Architecture studio made our dream
+                                agency building a reality! They offered
+                                innovative insights for the designs and
+                                deliverd a final product that was so
+                                stunning.”
+                            </p>
+                            <div class="review__user">
+                                <figure class="review__avt">
+                                    <img src="./assets/img/review-img03.png" alt="review avt" class="review__avt-img" />
+                                </figure>
+                                <div class="review__info">
+                                    <h5 class="review__name section__desc">
+                                        Stuart Broad
+                                    </h5>
+                                    <p class="section__desc--small">
+                                        UI/UX Designer
+                                    </p>
+                                </div>
+                            </div>
                         </li>
-                        <!-- client item04 -->
-                        <li class="client__item">
-                            <figure class="client__img-wrap">
-                                <img
-                                    src="./assets/img/client-logo04.svg"
-                                    alt="client-logo04"
-                                    class="client__img"
-                                />
-                            </figure>
-                        </li>
-                        <!-- client item05 -->
-                        <li class="client__item">
-                            <figure class="client__img-wrap">
-                                <img
-                                    src="./assets/img/client-logo05.svg"
-                                    alt="client-logo05"
-                                    class="client__img"
-                                />
-                            </figure>
-                        </li>
-                        <!-- client item06 -->
-                        <li class="client__item">
-                            <figure class="client__img-wrap">
-                                <img
-                                    src="./assets/img/client-logo06.svg"
-                                    alt="client-logo06"
-                                    class="client__img"
-                                />
-                            </figure>
+                        <!-- Review item04 -->
+                        <li class="review__item">
+                            <div class="review__stars">
+                                <button class="review__star-wrap">
+                                    <img src="./assets/img/star.svg" alt="star" class="review__star-icon" />
+                                </button>
+                                <button class="review__star-wrap">
+                                    <img src="./assets/img/star.svg" alt="star" class="review__star-icon" />
+                                </button>
+                                <button class="review__star-wrap">
+                                    <img src="./assets/img/star.svg" alt="star" class="review__star-icon" />
+                                </button>
+                                <button class="review__star-wrap">
+                                    <img src="./assets/img/star.svg" alt="star" class="review__star-icon" />
+                                </button>
+                                <button class="review__star-wrap">
+                                    <img src="./assets/img/star.svg" alt="star" class="review__star-icon" />
+                                </button>
+                            </div>
+                            <p class="review__desc section__desc">
+                                “Mason Architecture studio made our dream
+                                agency building a reality! They offered
+                                innovative insights for the designs and
+                                deliverd a final product that was so
+                                stunning.”
+                            </p>
+                            <div class="review__user">
+                                <figure class="review__avt">
+                                    <img src="./assets/img/review-img04.png" alt="review avt" class="review__avt-img" />
+                                </figure>
+                                <div class="review__info">
+                                    <h5 class="review__name section__desc">
+                                        Jhon Cina
+                                    </h5>
+                                    <p class="section__desc--small">
+                                        UI/UX Designer
+                                    </p>
+                                </div>
+                            </div>
                         </li>
                     </ul>
-                </section>
-                <!-- member -->
-                <section class="member">
-                    <div class="container">
-                        <h3 class="section__heading">Our team Member</h3>
-                        <ul class="member__list">
-                            <!-- Member item01 -->
-                            <li class="member__item">
-                                <figure class="member__avt">
-                                    <img
-                                        src="./assets/img/member-avt01.png"
-                                        alt="member-avt01"
-                                        class="member__avt-img"
-                                    />
-                                </figure>
-                                <h5 class="member__name section__title--small">
-                                    sarah taylor
+                </div>
+            </section>
+            <!-- blog -->
+            <section class="blog">
+                <div class="container">
+                    <h3 class="section__heading">
+                        our Latest architect blog
+                    </h3>
+                    <ul class="blog__list">
+                        <!-- Blog item01 -->
+                        <li class="blog__item">
+                            <figure class="blog__img-wrap">
+                                <img src="./assets/img/blog-img-1-3.png" alt="blog-img" class="blog__img" />
+                            </figure>
+                            <div class="blog__info">
+                                <h5 class="blog__title section__title--small">
+                                    top 5 architecture building 2022
                                 </h5>
-                                <p class="member__job section__desc">
-                                    Founder of Mason
+                                <p class="blog__desc section__desc--small">
+                                    “Mason Architecture studio made our
+                                    dream agency building a reality! They
+                                    offered innovative insights for the
+                                    designs and deliverd a final product
+                                    that was so stunning.”
                                 </p>
-                                <p class="member__desc section__desc">
-                                    We promise to build project for our clint
-                                </p>
-                            </li>
-                            <!-- Member item02 -->
-                            <li class="member__item">
-                                <figure class="member__avt">
-                                    <img
-                                        src="./assets/img/member-avt02.png"
-                                        alt="member-avt02"
-                                        class="member__avt-img"
-                                    />
-                                </figure>
-                                <h5 class="member__name section__title--small">
-                                    Michel CLark
+                            </div>
+                        </li>
+                        <!-- Blog item01 -->
+                        <li class="blog__item">
+                            <figure class="blog__img-wrap">
+                                <img src="./assets/img/blog-img-2.png" alt="blog-img" class="blog__img" />
+                            </figure>
+                            <div class="blog__info">
+                                <h5 class="blog__title section__title--small">
+                                    top 5 architecture building 2022
                                 </h5>
-                                <p class="member__job section__desc">
-                                    Client Manager
+                                <p class="blog__desc section__desc--small">
+                                    “Mason Architecture studio made our
+                                    dream agency building a reality! They
+                                    offered innovative insights for the
+                                    designs and deliverd a final product
+                                    that was so stunning.”
                                 </p>
-                                <p class="member__desc section__desc">
-                                    We promise to build project for our clint
-                                </p>
-                            </li>
-                            <!-- Member item03 -->
-                            <li class="member__item">
-                                <figure class="member__avt">
-                                    <img
-                                        src="./assets/img/member-avt03.png"
-                                        alt="member-avt03"
-                                        class="member__avt-img"
-                                    />
-                                </figure>
-                                <h5 class="member__name section__title--small">
-                                    Michel CLark
+                            </div>
+                        </li>
+                        <!-- Blog item03 -->
+                        <li class="blog__item">
+                            <figure class="blog__img-wrap">
+                                <img src="./assets/img/blog-img-1-3.png" alt="blog-img" class="blog__img" />
+                            </figure>
+                            <div class="blog__info">
+                                <h5 class="blog__title section__title--small">
+                                    top 5 architecture building 2022
                                 </h5>
-                                <p class="member__job section__desc">
-                                    Junior Architechor
+                                <p class="blog__desc section__desc--small">
+                                    “Mason Architecture studio made our
+                                    dream agency building a reality! They
+                                    offered innovative insights for the
+                                    designs and deliverd a final product
+                                    that was so stunning.”
                                 </p>
-                                <p class="member__desc section__desc">
-                                    We promise to build project for our clint
-                                </p>
-                            </li>
-                        </ul>
-                        <a href="#" class="member__cta">View All Member</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="#" class="blog__cta">View All Blog</a>
+                </div>
+            </section>
+            <!-- form -->
+            <section class="form">
+                <div class="container">
+                    <div class="form__wrap">
+                        <form class="form__info">
+                            <h3 class="section__heading">Get In Touch</h3>
+                            <div class="form__inputs">
+                                <div class="form__input-wrap">
+                                    <input type="text" class="form__input" placeholder="Full Name" />
+                                    <div class="form__line"></div>
+                                </div>
+                                <div class="form__input-wrap">
+                                    <input type="email" class="form__input" placeholder="Email Address" />
+                                    <div class="form__line"></div>
+                                </div>
+                                <div class="form__input-wrap">
+                                    <input type="text" class="form__input" placeholder="Company" />
+                                    <div class="form__line"></div>
+                                </div>
+                                <div class="form__input-wrap">
+                                    <input type="text" class="form__input" placeholder="How can we help you?" />
+                                    <div class="form__line"></div>
+                                </div>
+                            </div>
+                            <button class="form__btn">Send Message</button>
+                        </form>
+                        <figure class="form__img-wrap">
+                            <img src="./assets/img/form-img.png" alt="form img" class="form__img" />
+                        </figure>
                     </div>
-                </section>
-                <!-- review -->
-                <section class="review">
-                    <div class="container">
-                        <h3 class="review__heading section__heading">What our Client Say</h3>
-                        <ul class="review__list">
-                            <!-- Review item01 -->
-                            <li class="review__item">
-                                <div class="review__stars">
-                                    <button class="review__star-wrap">
-                                        <img
-                                            src="./assets/img/star.svg"
-                                            alt="star"
-                                            class="review__star-icon"
-                                        />
-                                    </button>
-                                    <button class="review__star-wrap">
-                                        <img
-                                            src="./assets/img/star.svg"
-                                            alt="star"
-                                            class="review__star-icon"
-                                        />
-                                    </button>
-                                    <button class="review__star-wrap">
-                                        <img
-                                            src="./assets/img/star.svg"
-                                            alt="star"
-                                            class="review__star-icon"
-                                        />
-                                    </button>
-                                    <button class="review__star-wrap">
-                                        <img
-                                            src="./assets/img/star.svg"
-                                            alt="star"
-                                            class="review__star-icon"
-                                        />
-                                    </button>
-                                    <button class="review__star-wrap">
-                                        <img
-                                            src="./assets/img/star.svg"
-                                            alt="star"
-                                            class="review__star-icon"
-                                        />
-                                    </button>
-                                </div>
-                                <p class="review__desc section__desc">
-                                    “Mason Architecture studio made our dream
-                                    agency building a reality! They offered
-                                    innovative insights for the designs and
-                                    deliverd a final product that was so
-                                    stunning.”
-                                </p>
-                                <div class="review__user">
-                                    <figure class="review__avt">
-                                        <img
-                                            src="./assets/img/review-img01.png"
-                                            alt="review avt"
-                                            class="review__avt-img"
-                                        />
-                                    </figure>
-                                    <div class="review__info">
-                                        <h5 class="review__name section__desc">
-                                            Tim Southee
-                                        </h5>
-                                        <p class="section__desc--small">
-                                            UI/UX Designer
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- Review item02 -->
-                            <li class="review__item">
-                                <div class="review__stars">
-                                    <button class="review__star-wrap">
-                                        <img
-                                            src="./assets/img/star.svg"
-                                            alt="star"
-                                            class="review__star-icon"
-                                        />
-                                    </button>
-                                    <button class="review__star-wrap">
-                                        <img
-                                            src="./assets/img/star.svg"
-                                            alt="star"
-                                            class="review__star-icon"
-                                        />
-                                    </button>
-                                    <button class="review__star-wrap">
-                                        <img
-                                            src="./assets/img/star.svg"
-                                            alt="star"
-                                            class="review__star-icon"
-                                        />
-                                    </button>
-                                    <button class="review__star-wrap">
-                                        <img
-                                            src="./assets/img/star.svg"
-                                            alt="star"
-                                            class="review__star-icon"
-                                        />
-                                    </button>
-                                    <button class="review__star-wrap">
-                                        <img
-                                            src="./assets/img/star.svg"
-                                            alt="star"
-                                            class="review__star-icon"
-                                        />
-                                    </button>
-                                </div>
-                                <p class="review__desc section__desc">
-                                    “Mason Architecture studio made our dream
-                                    agency building a reality! They offered
-                                    innovative insights for the designs and
-                                    deliverd a final product that was so
-                                    stunning.”
-                                </p>
-                                <div class="review__user">
-                                    <figure class="review__avt">
-                                        <img
-                                            src="./assets/img/review-img02.png"
-                                            alt="review avt"
-                                            class="review__avt-img"
-                                        />
-                                    </figure>
-                                    <div class="review__info">
-                                        <h5 class="review__name section__desc">
-                                            Stuart Broad
-                                        </h5>
-                                        <p class="section__desc--small">
-                                            UI/UX Designer
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- Review item03 -->
-                            <li class="review__item">
-                                <div class="review__stars">
-                                    <button class="review__star-wrap">
-                                        <img
-                                            src="./assets/img/star.svg"
-                                            alt="star"
-                                            class="review__star-icon"
-                                        />
-                                    </button>
-                                    <button class="review__star-wrap">
-                                        <img
-                                            src="./assets/img/star.svg"
-                                            alt="star"
-                                            class="review__star-icon"
-                                        />
-                                    </button>
-                                    <button class="review__star-wrap">
-                                        <img
-                                            src="./assets/img/star.svg"
-                                            alt="star"
-                                            class="review__star-icon"
-                                        />
-                                    </button>
-                                    <button class="review__star-wrap">
-                                        <img
-                                            src="./assets/img/star.svg"
-                                            alt="star"
-                                            class="review__star-icon"
-                                        />
-                                    </button>
-                                    <button class="review__star-wrap">
-                                        <img
-                                            src="./assets/img/star.svg"
-                                            alt="star"
-                                            class="review__star-icon"
-                                        />
-                                    </button>
-                                </div>
-                                <p class="review__desc section__desc">
-                                    “Mason Architecture studio made our dream
-                                    agency building a reality! They offered
-                                    innovative insights for the designs and
-                                    deliverd a final product that was so
-                                    stunning.”
-                                </p>
-                                <div class="review__user">
-                                    <figure class="review__avt">
-                                        <img
-                                            src="./assets/img/review-img03.png"
-                                            alt="review avt"
-                                            class="review__avt-img"
-                                        />
-                                    </figure>
-                                    <div class="review__info">
-                                        <h5 class="review__name section__desc">
-                                            Stuart Broad
-                                        </h5>
-                                        <p class="section__desc--small">
-                                            UI/UX Designer
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- Review item04 -->
-                            <li class="review__item">
-                                <div class="review__stars">
-                                    <button class="review__star-wrap">
-                                        <img
-                                            src="./assets/img/star.svg"
-                                            alt="star"
-                                            class="review__star-icon"
-                                        />
-                                    </button>
-                                    <button class="review__star-wrap">
-                                        <img
-                                            src="./assets/img/star.svg"
-                                            alt="star"
-                                            class="review__star-icon"
-                                        />
-                                    </button>
-                                    <button class="review__star-wrap">
-                                        <img
-                                            src="./assets/img/star.svg"
-                                            alt="star"
-                                            class="review__star-icon"
-                                        />
-                                    </button>
-                                    <button class="review__star-wrap">
-                                        <img
-                                            src="./assets/img/star.svg"
-                                            alt="star"
-                                            class="review__star-icon"
-                                        />
-                                    </button>
-                                    <button class="review__star-wrap">
-                                        <img
-                                            src="./assets/img/star.svg"
-                                            alt="star"
-                                            class="review__star-icon"
-                                        />
-                                    </button>
-                                </div>
-                                <p class="review__desc section__desc">
-                                    “Mason Architecture studio made our dream
-                                    agency building a reality! They offered
-                                    innovative insights for the designs and
-                                    deliverd a final product that was so
-                                    stunning.”
-                                </p>
-                                <div class="review__user">
-                                    <figure class="review__avt">
-                                        <img
-                                            src="./assets/img/review-img04.png"
-                                            alt="review avt"
-                                            class="review__avt-img"
-                                        />
-                                    </figure>
-                                    <div class="review__info">
-                                        <h5 class="review__name section__desc">Jhon Cina</h5>
-                                        <p class="section__desc--small">
-                                            UI/UX Designer
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-                <!-- blog -->
-                <section class="blog">
-                    <div class="container">
-                        <h3 class="section__heading">our Latest architect blog</h3>
-                        <ul class="blog__list">
-                            <!-- Blog item01 -->
-                            <li class="blog__item">
-                                <figure class="blog__img-wrap">
-                                    <img src="./assets/img/blog-img-1-3.png" alt="blog-img" class="blog__img">
-                                </figure>
-                                <div class="blog__info">
-                                    <h5 class="blog__title section__title--small">top 5 architecture building 2022</h5>
-                                    <p class="blog__desc section__desc--small">“Mason Architecture studio made our dream agency building a reality! They offered innovative insights for the designs and deliverd a final product that was so stunning.”</p>
-                                </div>
-                            </li>
-                            <!-- Blog item01 -->
-                            <li class="blog__item">
-                                <figure class="blog__img-wrap">
-                                    <img src="./assets/img/blog-img-2.png" alt="blog-img" class="blog__img">
-                                </figure>
-                                <div class="blog__info">
-                                    <h5 class="blog__title section__title--small">top 5 architecture building 2022</h5>
-                                    <p class="blog__desc section__desc--small">“Mason Architecture studio made our dream agency building a reality! They offered innovative insights for the designs and deliverd a final product that was so stunning.”</p>
-                                </div>
-                            </li>
-                            <!-- Blog item03 -->
-                            <li class="blog__item">
-                                <figure class="blog__img-wrap">
-                                    <img src="./assets/img/blog-img-1-3.png" alt="blog-img" class="blog__img">
-                                </figure>
-                                <div class="blog__info">
-                                    <h5 class="blog__title section__title--small">top 5 architecture building 2022</h5>
-                                    <p class="blog__desc section__desc--small">“Mason Architecture studio made our dream agency building a reality! They offered innovative insights for the designs and deliverd a final product that was so stunning.”</p>
-                                </div>
-                            </li>
-                        </ul>
-                        <a href="#" class="blog__cta">View All Blog</a>
-                    </div>
-                </section>
-            </main>
-        </div>
-    </body>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
 </html>
