@@ -434,7 +434,56 @@ body {
         .member__cta {
             margin-top: 60px;
             @include btn(15px, 35px, $pmr-bgcl, 0);
-            @include txt(1.8rem,500,30px,#fff);
+            @include txt(1.8rem, 500, 30px, #fff);
+        }
+    }
+    // Review
+    .review {
+        padding: 80px 0;
+        .review__heading{
+            text-align: center;
+        }
+        .review__list {
+            margin-top: 60px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px 40px;
+            .review__item {
+                border-radius: 20px;
+                border: 1px solid #dbe1e3;
+                padding: 30px;
+                .review__stars{
+                    @include flex(unset);
+                    column-gap: 9px;
+                    .review__star-wrap{
+                        @include image-wrap(20px,20px);
+                        .review__star-icon{
+                            @include imgage(true);
+                        }
+                    }
+                }
+                .review__desc{
+                    margin-top: 20px;
+                }
+                .review__user{
+                    margin-top: 40px;
+                    @include flex(unset,flex-start);
+                    column-gap: 16px;
+                    .review__avt{
+                        @include image-wrap(54px,54px);
+                        border-radius: 50%;
+                        .review__avt-img{
+                            @include imgage(true);
+                            border-radius: inherit;
+                        }
+                    }
+                    .review__info{
+                        .review__name{
+                            color: $pmr-text-cl;
+                        }
+                    }
+                }
+            }
         }
     }
 }
