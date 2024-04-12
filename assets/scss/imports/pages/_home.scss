@@ -37,6 +37,10 @@
                         .header__item {
                             .header__item-link {
                                 @include txt(1.6rem, 400, 28px, $pmr-text-cl);
+                                .header__item-link--active {
+                                    color: #1cc7d9;
+                                    font-weight: 500;
+                                }
                             }
                         }
                     }
@@ -956,14 +960,14 @@
                         .footer__btn {
                             width: 100%;
                         }
-                        .footer__btn{
+                        .footer__btn {
                             font-size: 1.6rem;
                             line-height: 24px;
                         }
                     }
                 }
             }
-            .footer__bottom{
+            .footer__bottom {
                 margin-top: 40px;
                 flex-direction: column;
                 align-items: flex-start;
