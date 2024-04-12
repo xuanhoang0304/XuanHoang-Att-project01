@@ -440,7 +440,7 @@ body {
     // Review
     .review {
         padding: 80px 0;
-        .review__heading{
+        .review__heading {
             text-align: center;
         }
         .review__list {
@@ -452,38 +452,75 @@ body {
                 border-radius: 20px;
                 border: 1px solid #dbe1e3;
                 padding: 30px;
-                .review__stars{
+                .review__stars {
                     @include flex(unset);
                     column-gap: 9px;
-                    .review__star-wrap{
-                        @include image-wrap(20px,20px);
-                        .review__star-icon{
+                    .review__star-wrap {
+                        @include image-wrap(20px, 20px);
+                        .review__star-icon {
                             @include imgage(true);
                         }
                     }
                 }
-                .review__desc{
+                .review__desc {
                     margin-top: 20px;
                 }
-                .review__user{
+                .review__user {
                     margin-top: 40px;
-                    @include flex(unset,flex-start);
+                    @include flex(unset, flex-start);
                     column-gap: 16px;
-                    .review__avt{
-                        @include image-wrap(54px,54px);
+                    .review__avt {
+                        @include image-wrap(54px, 54px);
                         border-radius: 50%;
-                        .review__avt-img{
+                        .review__avt-img {
                             @include imgage(true);
                             border-radius: inherit;
                         }
                     }
-                    .review__info{
-                        .review__name{
+                    .review__info {
+                        .review__name {
                             color: $pmr-text-cl;
                         }
                     }
                 }
             }
+        }
+    }
+    // Blog
+    .blog {
+        padding: 80px 0;
+        text-align: center;
+        .blog__list {
+            margin-top: 60px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 30px;
+            .blog__item {
+                border-radius: 20px;
+                border: 1px solid #dbe1e3;
+                .blog__img-wrap {
+                    @include image-wrap(100%, 258px);
+                    border-top-left-radius: inherit;
+                    border-top-right-radius: inherit;
+                    .blog__img {
+                        @include imgage(true);
+                        border-top-left-radius: inherit;
+                        border-top-right-radius: inherit;
+                    }
+                }
+                .blog__info{
+                    text-align: left;
+                    padding: 20px;
+                    .blog__desc{
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+        .blog__cta{
+            margin-top: 60px;
+            @include btn(15px,35px,$pmr-bgcl,0);
+            @include txt(1.8rem,500,30px,#fff);
         }
     }
 }
