@@ -84,13 +84,22 @@
             <main>
                 <!-- hero -->
                 <section class="hero">
-                    <figure class="hero__img-wrap">
+                    <picture class="hero__img-wrap">
+                        <source
+                            media="(min-width:1024px)"
+                            srcset="assets/img/hero-img.png"
+                        />
+                        <source
+                            media="(min-width:100px)"
+                            srcset="assets/img/hero-img-mb.png"
+                        />
                         <img
                             src="./assets/img/hero-img.png"
-                            alt="hero imgae"
+                            alt="hero img"
                             class="hero__img"
                         />
-                    </figure>
+                    </picture>
+
                     <div class="container">
                         <div class="hero__wrap">
                             <h1 class="hero__heading">
@@ -305,7 +314,7 @@
                                                 class="why__arrow-img"
                                             />
                                         </figure>
-                                        <p class="section__title">
+                                        <p class="why__control-txt section__title">
                                             Custom Designed
                                         </p>
                                     </button>
@@ -319,7 +328,7 @@
                                                 class="why__arrow-img"
                                             />
                                         </figure>
-                                        <p class="section__title">
+                                        <p class="why__control-txt section__title">
                                             Zero hassle Proccess
                                         </p>
                                     </button>
@@ -333,7 +342,7 @@
                                                 class="why__arrow-img"
                                             />
                                         </figure>
-                                        <p class="section__title">
+                                        <p class="why__control-txt section__title">
                                             Best-in market value
                                         </p>
                                     </button>
@@ -347,7 +356,7 @@
                                                 class="why__arrow-img"
                                             />
                                         </figure>
-                                        <p class="section__title">
+                                        <p class="why__control-txt section__title">
                                             Vatted professionals
                                         </p>
                                     </button>
@@ -1263,10 +1272,12 @@
                             <a href="#">
                                 <img src="./assets/img/Logo2.svg" alt="logo" />
                             </a>
-                            <p class="section__desc--small">Copyright © 2022 UI HUT All Rights Reserved </p>
+                            <p class="section__desc--small">
+                                Copyright © 2022 UI HUT All Rights Reserved
+                            </p>
                         </div>
                         <button>
-                            <img src="./assets/img/Social.svg" alt="socials">
+                            <img src="./assets/img/Social.svg" alt="socials" />
                         </button>
                     </div>
                 </div>
