@@ -6,9 +6,7 @@
 .hide-pc {
     display: none;
 }
-body {
-    height: 10000px;
-}
+
 #home {
     .header--fixed {
         position: sticky;
@@ -552,7 +550,12 @@ body {
                                 caret-color: #4cbce2;
                                 @include txt(1.8rem, 400, 30px, #4cbce2);
                                 &::placeholder {
-                                    @include txt(1.8rem, 400, 30px, $sub-text-cl);
+                                    @include txt(
+                                        1.8rem,
+                                        400,
+                                        30px,
+                                        $sub-text-cl
+                                    );
                                 }
                             }
                             .form__line {
@@ -583,6 +586,53 @@ body {
                     }
                 }
             }
+        }
+    }
+    // Footer
+    .footer {
+        padding: 63px 0 30px;
+        background-color: $pmr-text-cl;
+        .footer__list{
+            @include flex($flex-sb,unset);
+            padding-bottom: 54px;
+            border-bottom: 1px solid #364145;
+            .footer__item{
+                .footer__title{
+                    @include txt(2rem,700,30px,#fff);
+                    margin-bottom: 24px;
+                }
+                .footer__item-list{
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 16px;
+                    .footer__item-link{
+                        @include txt(1.6rem,400,28px,#96A5AA);
+                    }
+                }
+                .footer__email{
+                    @include flex(unset);
+                    column-gap: 18px;
+                    .footer__input{
+                        min-width: 258px;
+                        padding: 16px;
+                        @include txt(1.6rem,400,28px,#fff);
+                        caret-color: #fff;
+                        outline: none;
+                        border: 1px solid #364145;
+                        &::placeholder{
+                            @include txt(1.6rem,400,28px,#96A5AA);
+                        }
+                    }
+                    .footer__btn{
+                        @include btn(15px,35px,$pmr-bgcl,0);
+                        @include txt(1.8rem,500,30px,#fff);
+                    }
+                }
+            }
+        }
+        .footer__bottom{
+            @include flex($flex-sb);
+            margin-top: 30px;
         }
     }
 }
