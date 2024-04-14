@@ -180,3 +180,99 @@
         }
     }
 }
+@include tablet()
+{
+    #blog{
+        .header {
+            padding: 18px 0;
+            .header__wrap {
+                .header__right {
+                    @include flex(unset);
+                    column-gap: 20px;
+                    .header__contact {
+                        padding: 6px 16.4px;
+                        font-size: 1.2rem;
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
+        .blog__heading{
+            padding: 42px 0 0 0;
+            font-size: 4rem;
+            line-height: 50px;
+        }
+        .blog__body{
+            padding: 30px 0 100px;
+            .blog__list{
+                row-gap: 30px;
+                .blog__item{
+                    flex-wrap: wrap;
+                    row-gap: 20px;
+                    .blog__media{
+                        width: 100%;
+                        height: 174px;
+                    }
+                    .blog__content{
+                        .blog__title{
+                            max-width: 100%;
+                            margin-top: 14px;
+                            font-size: 1.6rem;
+                            line-height: 24px;
+                        }
+                        .blog__desc{
+                            max-width: 100%;
+                            margin-top: 14px;
+                            font-size: 1.6rem;
+                            line-height: 30px;
+                        }
+                        .blog__item-bottom{
+                            margin-top: 14px;
+                            gap: 0;
+                            justify-content: space-between;
+                            .blog__author{
+                                font-size: 1.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .blog__btn{
+                margin-top: 50px;
+            }
+        }
+        // footer
+        .footer {
+            padding: 35px 0 51px;
+            .footer__list {
+                flex-direction: column;
+                padding-bottom: 49px;
+                row-gap: 30px;
+                .footer__item:last-child {
+                    margin-top: 10px;
+                    .footer__title {
+                        margin-bottom: 12px;
+                    }
+                    .footer__email {
+                        flex-direction: column;
+                        row-gap: 12px;
+                        .footer__input,
+                        .footer__btn {
+                            width: 100%;
+                        }
+                        .footer__btn {
+                            font-size: 1.6rem;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+            .footer__bottom {
+                margin-top: 40px;
+                flex-direction: column;
+                align-items: flex-start;
+                row-gap: 20px;
+            }
+        }
+    }
+}
