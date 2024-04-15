@@ -114,7 +114,7 @@
                     }
                 }
             }
-            .feature__item:last-child {
+            .feature__item:first-child {
                 flex-direction: row-reverse;
             }
         }
@@ -189,7 +189,7 @@
         .cta__wrap {
             background: $pmr-bgcl;
             padding: 55px 100px;
-            text-align: cent    er;
+            text-align: center;
             .cta__top {
                 @include flex($flex-sb);
                 .cta__line {
@@ -216,7 +216,7 @@
             }
             .cta__btn {
                 margin-top: 38px;
-                @include btn(15px, 35px, $pmr-text-cl, 0);
+                @include btn(15px, 35.5px, $pmr-text-cl, 0);
                 @include txt(1.8rem, 500, 30px, #fff);
             }
         }
@@ -271,10 +271,183 @@
 }
 @include tablet() {
     #about {
-        .team__btn {
-            @include btn(13px, 46.5px, $pmr-bgcl, 0);
-            @include txt(1.4rem, 500, 22px, #fff);
-            margin-top: 32px;
+        // header
+        .header {
+            padding: 18px 0;
+            .header__wrap {
+                .header__right {
+                    @include flex(unset);
+                    column-gap: 20px;
+                    .header__contact {
+                        padding: 6px 16.4px;
+                        font-size: 1.2rem;
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
+        // Main
+        .hero {
+            padding: 42px 0 52px;
+            .hero__heading {
+                font-size: 4rem;
+                line-height: 50px;
+                max-width: 100%;
+            }
+            .hero__desc {
+                margin-top: 23px;
+            }
+            .hero__img-wrap {
+                height: 148px;
+                margin-top: 40px;
+            }
+        }
+        // feature
+        .feature {
+            padding: 100px 0;
+            .feature__list {
+                row-gap: 60px;
+                .feature__item {
+                    flex-direction: column;
+                    row-gap: 40px;
+                    .feature__content {
+                        width: 100%;
+                        .feature__heading {
+                            font-size: 3rem;
+                            line-height: 40px;
+                            max-width: 257px;
+                        }
+                        .feature__desc {
+                            margin-top: 10px;
+                        }
+                    }
+                    .feature__media {
+                        width: 100%;
+                        height: 327px;
+                    }
+                }
+                .feature__item:first-child {
+                    flex-direction: column;
+                }
+            }
+        }
+        .award {
+            .award__heading {
+                font-size: 3rem;
+                line-height: 40px;
+                text-align: left;
+                max-width: 254px;
+                margin: 0;
+            }
+            .award__list {
+                margin-top: 31px;
+                .award__item {
+                    padding: 20px 0 30px;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    row-gap: 16px;
+                    .award__left {
+                        column-gap: 20px;
+                        align-items: flex-start;
+                        .award__title {
+                            font-size: 2rem;
+                            line-height: 30px;
+                            max-width: 280px;
+                        }
+                    }
+                    .award__right {
+                        display: flex;
+                        justify-content: space-between;
+                        .award__desc {
+                            max-width: 118px;
+                        }
+                    }
+                }
+            }
+        }
+        // Team
+        .team {
+            padding: 110px 0 100px;
+            .team__list {
+                flex-direction: column;
+                margin-top: 32px;
+                .team__item {
+                    width: 100%;
+                    .team__avt-wrap {
+                        height: 327px;
+                    }
+                }
+                .team__item:nth-child(2),
+                .team__item:nth-child(5) {
+                    flex-direction: column;
+                }
+                .team__item:nth-child(2) {
+                    order: -1;
+                }
+            }
+            .team__btn {
+                @include btn(13px, 46.5px, $pmr-bgcl, 0);
+                @include txt(1.4rem, 500, 22px, #fff);
+                margin-top: 32px;
+            }
+        }
+        // Cta
+        .cta {
+            .container {
+                max-width: 100%;
+                .cta__wrap {
+                    padding: 36px 24px;
+                    .cta__top{
+                        column-gap: 20px;
+                        .cta__star-list{
+                            column-gap: 20px;
+                            .cta__star{
+                                width: 24px;
+                                height: 24px;
+                            }
+                        }
+                    }
+                    .cta__heading{
+                        margin: 20px auto 0;
+                    }
+                    .cta__btn{
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+        // footer
+        .footer {
+            padding: 35px 0 51px;
+            .footer__list {
+                flex-direction: column;
+                padding-bottom: 49px;
+                row-gap: 30px;
+                .footer__item:last-child {
+                    margin-top: 10px;
+                    .footer__title {
+                        margin-bottom: 12px;
+                    }
+                    .footer__email {
+                        flex-direction: column;
+                        row-gap: 12px;
+                        .footer__input,
+                        .footer__btn {
+                            width: 100%;
+                        }
+                        .footer__btn {
+                            font-size: 1.6rem;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+            .footer__bottom {
+                margin-top: 40px;
+                flex-direction: column;
+                align-items: flex-start;
+                row-gap: 20px;
+            }
         }
     }
 }
