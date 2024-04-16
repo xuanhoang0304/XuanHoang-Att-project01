@@ -22,7 +22,7 @@
 
             .header__left {
                 @include flex(unset);
-                column-gap: 123px;
+                column-gap: 260px;
 
                 .header__nav {
                     ul {
@@ -37,10 +37,10 @@
                         .header__item {
                             .header__item-link {
                                 @include txt(1.6rem, 400, 28px, $pmr-text-cl);
-                                .header__item-link--active {
-                                    color: #1cc7d9;
-                                    font-weight: 500;
-                                }
+                            }
+                            .header__item-link--active {
+                                color: #1cc7d9;
+                                font-weight: 500;
                             }
                         }
                     }

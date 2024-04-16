@@ -134,8 +134,8 @@ body {
   display: flex;
   justify-content: unset;
   align-items: center;
-  -moz-column-gap: 123px;
-       column-gap: 123px;
+  -moz-column-gap: 260px;
+       column-gap: 260px;
 }
 #home .header .header__wrap .header__left .header__nav ul {
   display: flex;
@@ -157,7 +157,7 @@ body {
   line-height: 28px;
   color: #181d1f;
 }
-#home .header .header__wrap .header__left .header__nav ul .header__item .header__item-link .header__item-link--active {
+#home .header .header__wrap .header__left .header__nav ul .header__item .header__item-link--active {
   color: #1cc7d9;
   font-weight: 500;
 }
@@ -1362,8 +1362,8 @@ body {
   display: flex;
   justify-content: unset;
   align-items: center;
-  -moz-column-gap: 123px;
-       column-gap: 123px;
+  -moz-column-gap: 260px;
+       column-gap: 260px;
 }
 #home .header .header__wrap .header__left .header__nav ul {
   display: flex;
@@ -1385,7 +1385,7 @@ body {
   line-height: 28px;
   color: #181d1f;
 }
-#home .header .header__wrap .header__left .header__nav ul .header__item .header__item-link .header__item-link--active {
+#home .header .header__wrap .header__left .header__nav ul .header__item .header__item-link--active {
   color: #1cc7d9;
   font-weight: 500;
 }
@@ -2929,8 +2929,8 @@ body {
   display: flex;
   justify-content: unset;
   align-items: center;
-  -moz-column-gap: 123px;
-       column-gap: 123px;
+  -moz-column-gap: 260px;
+       column-gap: 260px;
 }
 #home .header .header__wrap .header__left .header__nav ul {
   display: flex;
@@ -2952,7 +2952,7 @@ body {
   line-height: 28px;
   color: #181d1f;
 }
-#home .header .header__wrap .header__left .header__nav ul .header__item .header__item-link .header__item-link--active {
+#home .header .header__wrap .header__left .header__nav ul .header__item .header__item-link--active {
   color: #1cc7d9;
   font-weight: 500;
 }
@@ -4494,8 +4494,8 @@ body {
   display: flex;
   justify-content: unset;
   align-items: center;
-  -moz-column-gap: 123px;
-       column-gap: 123px;
+  -moz-column-gap: 260px;
+       column-gap: 260px;
 }
 #home .header .header__wrap .header__left .header__nav ul {
   display: flex;
@@ -4517,7 +4517,7 @@ body {
   line-height: 28px;
   color: #181d1f;
 }
-#home .header .header__wrap .header__left .header__nav ul .header__item .header__item-link .header__item-link--active {
+#home .header .header__wrap .header__left .header__nav ul .header__item .header__item-link--active {
   color: #1cc7d9;
   font-weight: 500;
 }
